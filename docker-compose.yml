@@ -1,6 +1,7 @@
 services:
   webapp:
     image: ko3yn/spring-clinic:latest
+    pull_policy: always
     ports:
       - "8080:8080"
   mysql:
