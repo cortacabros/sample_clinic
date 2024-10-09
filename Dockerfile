@@ -1,4 +1,4 @@
-FROM anapsix/alpine-java
+FROM bitnami/java:17
 
 COPY target/*.jar /home/webapp.jar
 
